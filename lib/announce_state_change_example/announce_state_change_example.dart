@@ -105,8 +105,8 @@ class CheckBoxNoSemantics extends StatelessWidget {
 
 /// We provide Semantics with [enabled] and [checked]. This enables the screen
 /// reader to understand that it's a checkbox and if it is enabled or disabled.
-/// But it provides no feedback when the user taps and changes the value of the
-/// checkbox.
+/// But it provides no feedback on Android when the user taps and changes the
+/// value of the checkbox, it does on iOS though.
 class CheckBoxSemanticsNoFeedback extends StatelessWidget {
   final bool checked;
   final ValueChanged<bool>? onChanged;
