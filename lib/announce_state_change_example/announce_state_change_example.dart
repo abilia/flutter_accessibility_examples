@@ -167,7 +167,7 @@ class CheckBoxSemanticsFeedbackBroken extends StatelessWidget {
 }
 
 /// Fix feedback by having [Semantics] Widget be above the problematic Widget
-/// (in this case a [Listener] Widget.
+/// (in this case a [Listener] Widget).
 class CheckBoxSemanticsFeedbackWorking extends StatelessWidget {
   final bool checked;
   final ValueChanged<bool>? onChanged;
